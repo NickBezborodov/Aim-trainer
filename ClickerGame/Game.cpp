@@ -240,7 +240,7 @@ void Game::updateEnemies()
 
 	if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
 	{
-		if (this->mouseHeld == false)
+		if (this->mouseHeld == false) // ne zazhata
 		{
 			this->mouseHeld = true;
 			bool deleted = false;
